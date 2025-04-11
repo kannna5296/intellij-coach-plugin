@@ -1,0 +1,32 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+build/
+
+# Gradle
+.gradle/
+build/
+.gradle/
+
+# Kotlin build files
+*.kotlin_metadata
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Local Gradle Wrapper
+gradle/wrapper/gradle-wrapper.jar
+
+# Log files
+*.log
+
+# JetBrains plugin development files
+plugin-*.*

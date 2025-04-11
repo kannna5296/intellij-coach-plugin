@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.example.intellicoach</id>
+    <name>IntelliCoach</name>
+    <version>1.0</version>
+    <vendor>あなたの名前</vendor>
+
+    <description>
+        IntelliCoach is watching you!
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="IntelliCoach"
+                anchor="bottom"
+                factoryClass="intellicoach.IntelliCoachToolWindowFactory"
+                canCloseContent="false"/>
+    </extensions>
+</idea-plugin>
