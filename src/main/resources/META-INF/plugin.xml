@@ -16,5 +16,6 @@
                 anchor="bottom"
                 factoryClass="intellicoach.IntelliCoachToolWindowFactory"
                 canCloseContent="false"/>
+        <applicationService serviceImplementation="intellicoach.IntelliCoachPlugin"/>
     </extensions>
 </idea-plugin>
