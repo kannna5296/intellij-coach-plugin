@@ -5,7 +5,7 @@
     <vendor>あなたの名前</vendor>
 
     <description>
-        IntelliCoach is watching you!
+        IntelliCoach is watching you!IntelliCoach is watching you!
     </description>
 
     <depends>com.intellij.modules.platform</depends>
@@ -14,7 +14,9 @@
         <toolWindow
                 id="IntelliCoach"
                 anchor="bottom"
-                factoryClass="intellicoach.IntelliCoachToolWindowFactory"
-                canCloseContent="false"/>
+                factoryClass="intellicoach.IntelliCoachToolWindowFactory"/>
+    </extensions>
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity implementation="intellicoach.IntelliCoachStartupActivity"/>
     </extensions>
 </idea-plugin>

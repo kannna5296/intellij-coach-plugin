@@ -1,5 +1,6 @@
 plugins {
     id("org.jetbrains.intellij") version "1.17.2"
+    id("org.jlleitschuh.gradle.ktlint") version "11.6.0" // 最新バージョンは公式で確認してね
     kotlin("jvm") version "1.9.22"
 }
 
@@ -23,6 +24,6 @@ tasks {
     }
 
     runIde {
-        //ideDirectory.set(file("/path/to/your/IntelliJ/IDEA")) // 省略可
+        // ideDirectory.set(file("/path/to/your/IntelliJ/IDEA")) // 省略可
     }
 }
